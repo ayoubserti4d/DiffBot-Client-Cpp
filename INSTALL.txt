@@ -1,0 +1,22 @@
+DEPENDENCY
+
+This project depend on curl library.
+you can install it with the command line:
+	sudo apt-get install libcurl4-openssl-dev
+
+
+INSTALL
+
+1) You should have gcc and CMake installed on you machine before compiling this project.
+just do an apt-get install as:
+	sudo apt-get install gcc cmake 
+
+2) In the project directory run command
+	cmake .
+   CMake will create a makefile.
+
+3) Now, you can build the project by using the command 
+	make 
+
+4) Finaly you may try the program 
+	./DiffBotClient
